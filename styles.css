@@ -1,0 +1,52 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.toptext {
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topnav {
+  background-color: rgb(220, 220, 0);
+  overflow: hidden;
+  width: 433px;
+  margin: auto;
+  outline: none;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #d00000;
+  color: white;
+}
+
+.homeimg {
+  image-orientation: center;
+
+}
+
